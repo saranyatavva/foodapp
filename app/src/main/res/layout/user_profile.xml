@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="120dp"
+        android:background="@color/orange95">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/seguisb"
+            android:text="Arya Kapoor"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+<!--        <ImageView-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_marginLeft="55dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_toRightOf="@+id/name"-->
+<!--            android:src="@drawable/profile_round">-->
+
+<!--        </ImageView>-->
+
+ <de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_marginLeft="55dp"
+    android:layout_marginTop="20dp"
+    android:layout_toRightOf="@+id/name"
+    android:background="@drawable/profile_round"
+    android:src="@drawable/propic_dummy"
+     android:id="@+id/photo"
+     android:clickable="true"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="30dp"
+        >\
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:background="@drawable/profile_box"
+
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+
+
+            android:fontFamily="@font/seguisb"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aryakapoor@gmail.com"
+           android:background="@null"
+            android:textSize="17dp"
+android:layout_marginStart="60dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/segoeui"
+            />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:src="@drawable/edit_vector"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        >\
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:background="@drawable/profile_box"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+
+
+                android:fontFamily="@font/seguisb"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ar********"
+                android:background="@null"
+                android:textSize="17dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/segoeui"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:src="@drawable/edit_vector"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        >\
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:background="@drawable/profile_box"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile No:"
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+
+
+                android:fontFamily="@font/seguisb"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7386161638"
+                android:background="@null"
+                android:textSize="17dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/segoeui"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:src="@drawable/edit_vector"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        >\
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:background="@drawable/profile_box"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+
+
+                android:fontFamily="@font/seguisb"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aryakapoor@gmail.com"
+                android:background="@null"
+                android:textSize="17dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/segoeui"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:src="@drawable/edit_vector"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        >\
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+
+            android:background="@drawable/profile_box"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: "
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+
+
+                android:fontFamily="@font/seguisb"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apartment 3, Room no:105
+BML Munjal University, Gurgaon
+"
+                android:background="@null"
+                android:textSize="17dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/segoeui"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:src="@drawable/edit_vector"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_corners"
+        android:textAllCaps="false"
+        android:text="Logout"
+        android:textSize="21dp"
+        android:fontFamily="@font/seguisb"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="33dp"
+
+
+        />
+</LinearLayout>

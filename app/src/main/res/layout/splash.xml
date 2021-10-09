@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:backgroundTint="@null"
+    android:background="@color/light_white"
+    tools:context=".Profile_Act">
+
+    <ImageView
+        android:id="@+id/radial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-213dp"
+        android:src="@drawable/splash_bg" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_below="@id/logo"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-40dp"
+       android:textColor="@color/black"
+        android:fontFamily="@font/seguisb"/>
+
+    <Button
+        android:layout_width="235dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_corners"
+        android:textAllCaps="false"
+        android:text="Order Now"
+        android:textSize="21dp"
+        android:layout_below="@+id/radial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-120dp"
+        android:fontFamily="@font/seguisb"
+        android:id="@+id/order"
+        />
+
+</RelativeLayout>
